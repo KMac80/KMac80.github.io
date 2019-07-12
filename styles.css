@@ -180,3 +180,23 @@ ul.contact {
     padding:  20px;
     margin:  auto;
 }
+
+/* Mobile Styles */
+@media only screen and (max-width:  400px) {
+    .title-container,
+    .page-container,
+    .eduwork,
+    .footer-container {
+        width:  100%
+    }
+}
+
+/* Tablet Stlyes */
+@media only screen and (min-width:  401px) and (max-width:  960px) {
+    .title-container,
+    .page-container,
+    .eduwork,
+    .footer-container {
+        width:  50%
+    }
+}
