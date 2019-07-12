@@ -5,7 +5,6 @@
 }
 
 body {
-    font-family:  'Titillim Web', sans-serif;
     margin-bottom:  1em;
     background:  url('images/airbornewallp.jpg') repeat;
     background-size:  cover;
@@ -15,7 +14,7 @@ body {
 .title-container {
     color:  #001f33;
     background-color:  #0099ff;
-    opacity:  .8;
+    opacity:  .9;
     padding:  20px 0 20px 0;
     display:  flex;
     align-items:  center;
@@ -156,7 +155,7 @@ body {
 .footer-container {
     color:  #001f33;
     background-color:  #0099ff;
-    opacity:  .8;
+    opacity:  .9;
     padding:  20px 0 20px 0;
     height:  200px;
     display:  flex;
@@ -172,6 +171,7 @@ body {
 ul.contact {
     display:  flex;
     width:  50%;
+    opacity:  none;
     justify-content:  baseline;
     align-items:  center;
     flex-wrap:  wrap;
@@ -179,25 +179,4 @@ ul.contact {
     list-style-type:  none;
     padding:  20px;
     margin:  auto;
-}
-
-.contact li a {
-    color:  #ffffff;
-    font-size:  60px;
-    display:  flex;
-    justify-content:  space-around;
-    flex-wrap:  wrap;
-    flex-direction:  row;
-}
-
-.contact li a {
-    color:  #001f33;
-}
-
-a:link {
-    color:  #ffffff;
-}
-
-a:visited {
-    color:  #001f33;
 }
